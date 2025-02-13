@@ -18,11 +18,11 @@ export default function Body() {
                 />
             </div> */}
             <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-            <div className="flex flex-col gap-8 z-10 text-white max-w-7xl mx-auto justify-center items-center">
-                <div className="text-8xl max-w-4xl text-center">
+            <div className="flex flex-col gap-8 z-10 text-white max-w-7xl md:mx-auto mx-8 justify-center items-center">
+                <div className="lg:text-8xl text-3xl max-w-4xl text-center">
                     Luxury apartments in Kochi
                 </div>
-                <a className="text-center max-w-xs py-4 px-16 text-black font-semibold rounded bg-base" href="https://wa.me/918291474710?text=I'm%20interested%20in%20booking%20the%20villa!">
+                <a className="text-center lg:max-w-xs py-4 lg:px-16 px-8 text-black font-semibold rounded bg-base" href="https://wa.me/91XXXXXXX?text=I'm%20interested%20in%20booking%20the%20villa!">
                     Book a tour
                 </a>
             </div>

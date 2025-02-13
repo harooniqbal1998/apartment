@@ -1,7 +1,7 @@
 export default function Header() {
     return (
         <div className="sticky top-0 z-50 bg-white border-b-2">
-            <div className="flex justify-between max-w-7xl mx-auto items-center py-4">
+            <div className="flex justify-between lg:max-w-7xl md:mx-auto items-center py-4 mx-8">
                 <div>Iqbal</div>
                 <div className="flex gap-4">
                     <div>About Us</div>

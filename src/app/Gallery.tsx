@@ -7,7 +7,7 @@ export default function Gallery() {
     const masonryContainer = useMasonry()
 
     return (
-        <div className="max-w-7xl mx-auto py-8 min-h-screen">
+        <div className="max-w-7xl md:mx-auto mx-8 py-8 min-h-screen">
             <div className="pb-8 text-2xl font-semibold">Gallery</div>
 
             <div

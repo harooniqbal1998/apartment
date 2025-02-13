@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <div className="bg-dark h-[200px]">
-            <div className="max-w-7xl mx-auto py-8 text-white flex justify-between">
+            <div className="max-w-7xl md:mx-auto mx-8 py-8 text-white flex justify-between">
                 <div>
                     Iqbal
                 </div>
