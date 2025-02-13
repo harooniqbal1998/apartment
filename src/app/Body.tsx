@@ -22,9 +22,9 @@ export default function Body() {
                 <div className="text-8xl max-w-4xl text-center">
                     Luxury apartments in Kochi
                 </div>
-                <button className="text-center max-w-xs py-4 px-16 text-black font-semibold rounded bg-base">
+                <a className="text-center max-w-xs py-4 px-16 text-black font-semibold rounded bg-base" href="https://wa.me/918291474710?text=I'm%20interested%20in%20booking%20the%20villa!">
                     Book a tour
-                </button>
+                </a>
             </div>
         </div>
     )
