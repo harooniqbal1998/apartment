@@ -9,13 +9,13 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				background: "var(--background)",
+				background: "#edeec9",
+				secondary: "#bfd8bd",
 				foreground: "var(--foreground)",
-				base: "#BACBD9",
-				secondary: "#F2CA7E",
-				tertiary: "#F2D6B3",
-				dark: "#735645",
-				white: "#F2F2F2",
+				base: "#f4e285",
+				tertiary: "#bfd8bd",
+				fourth: "#98c9a3",
+				fifth: "#77bfa3",
 			},
 		},
 	},
