@@ -1,10 +1,15 @@
 // import Image from "next/image"
 
+
 import { Hammer, HomeIcon, MapPin } from "lucide-react";
 
+import Link from "next/link";
 
 
 export default function Body() {
+
+
+
     return (
         <div className="flex min-h-screen items-center bg-background ">
 
@@ -38,9 +43,8 @@ export default function Body() {
                 </div>
 
                 <div className=" flex flex-col gap-s items-center">
-                    <button className="bg-primary px-8 py-4 rounded-lg text-base text-background w-[300px]">
-                        Contact us
-                    </button>
+
+                    <Link href="/#contact" className="bg-primary px-8 py-4 rounded-lg text-base text-background w-[300px] text-center" scroll={true} replace={false}>Contact us</Link>
                     <p className="text-small text-gray4 text-secondary">
                         Currently under construction
                     </p>
