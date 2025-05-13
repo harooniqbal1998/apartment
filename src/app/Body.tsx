@@ -20,10 +20,10 @@ export default function Body() {
                 </video> */}
 
                 <div className="flex flex-col gap-ml items-center">
-                    <h1 className="text-6xl leading-[120%] font-bold max-w-3xl text-center">
+                    <h1 className="text-6xl leading-[120%] font-bold max-w-3xl text-center mx-m">
                         Find your luxury home in god&apos;s own country
                     </h1>
-                    <div className="flex gap-xl">
+                    <div className="flex flex-col md:flex-row gap-m md:gap-xl">
                         <div className="flex gap-s items-center">
                             <MapPin className="w-4 h-4 text-gray-500" />
                             <p>near Lulu mall</p>
@@ -44,10 +44,10 @@ export default function Body() {
 
                 <div className=" flex flex-col gap-s items-center">
 
-                    <Link href="/#contact" className="bg-primary px-8 py-4 rounded-lg text-base text-background w-[300px] text-center" scroll={true} replace={false}>Contact us</Link>
-                    <p className="text-small text-gray4 text-secondary">
+                    <Link href="/#contact" className="bg-primary mx-4 md:mx-8 py-4 rounded-lg text-base text-background w-[300px] text-center hover:rounded-none hover:underline underline-offset-4" scroll={true} replace={false}>Contact us</Link>
+                    <div className="text-small text-gray4 text-secondary">
                         Currently under construction
-                    </p>
+                    </div>
                 </div>
                 {/* ottamalikaiqbal@gmail.com */}
             </div>
