@@ -1,7 +1,6 @@
 import Header from "./Header";
 import Body from "./Body";
-import Contact from "./Contact";
-import Footer from "./Footer";
+import Contact from "@/components/Contact/Contact";
 import Details from "./Details";
 // import Gallery from "./Gallery";
 
