@@ -15,19 +15,15 @@ export default {
 				mobile: "576px",
 			},
 			colors: {
-				background: "#f9f8d7",
-				primary: "#545333",
-				gray1: "#D9D7B6",
-				gray4: "#878672",
-				gray2: "#FFF8D5",
+				 
 			},
 			spacing: {
-				s: "9px",
-				m: "18px",
-				ml: "27px",
-				l: "36px",
-				xl: "45px",
-				xxl: "54px",
+				s: "8px",
+				m: "16px",
+				ml: "32px",
+				l: "48px",
+				xl: "80px",
+				xxl: "124px",
 			},
 			letterSpacing: {
 				tighter: "-.04em",
@@ -35,38 +31,18 @@ export default {
 			lineHeight: {
 				m: "27px",
 			},
-			rotate: {
-				"135": "135deg",
-			},
 			textUnderlineOffset: {
 				"10": "5px",
 			},
 			fontSize: {
 				base: "1rem",
-				h1: "2.25rem",
-				h4: "1.77rem",
-				h5: "1.2rem",
-				h6: "22px",
-				small: "0.875rem",
-				xsmall: "0.78rem",
+				heading: "4rem"
 			},
 			boxShadow: {
 				sm: "0 5px 10px rgba(0, 0, 0, 0.12)",
 				md: "0 8px 30px rgba(0, 0, 0, 0.12)",
 				button: "6px 6px 0px 0px rgba(13, 13, 13, 1);",
 				medium: "3px 3px 0px 0px rgba(13, 13, 13, 1);",
-			},
-			sepia: {
-				30: "0.3",
-			},
-			contrast: {
-				12: "1.2",
-			},
-			brightness: {
-				9: "0.9",
-			},
-			saturate: {
-				12: "1.2",
 			},
 			animation: {
 				"fadeIn-fast":

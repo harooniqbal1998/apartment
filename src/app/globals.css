@@ -36,3 +36,60 @@ html {
   transform: translate(-50%, -50%);
   object-fit: cover;
 }
+/* 
+* {
+  outline: 1px solid red;
+} */
+
+
+.cards {
+  padding: 32px;
+  border: 1px solid black;
+}
+
+/* For the accordion to work */
+
+.accordion {
+  width: 100%;
+  border: 1px solid;
+  /* border-radius: 8p; */
+  /* margin-bottom: 10px; */
+}
+
+.accordion input {
+  display: none;
+}
+
+.accordion label {
+  display: block;
+  padding: 32px;
+  cursor: pointer;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion .content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  padding: 0 12px;
+  background: #fff;
+}
+
+.accordion input:checked ~ .content {
+  max-height: 200px;
+  padding: 12px;
+}
+
+
+.underline-custom {
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-thickness: 25px;
+  text-decoration-skip-ink: none;
+  text-underline-offset: -10px;
+}
+
+.scrollbar-none {
+  scrollbar-width: none;
+}

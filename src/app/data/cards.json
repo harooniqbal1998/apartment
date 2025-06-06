@@ -1,12 +1,27 @@
 [
   {
-    "image": "/exterior.jpg",
+    "image": "/test.jpeg",
     "heading": "Luxury Villa in Goa",
     "description": "A beautiful villa with a sea view and modern amenities."
   },
   {
-    "image": "/interior.jpg",
-    "heading": "Somethign",
+    "image": "/exterior2.jpeg",
+    "heading": "red",
+    "description": "Something something something"
+  },
+  {
+    "image": "/interior1.jpeg",
+    "heading": "blue",
+    "description": "Something something something"
+  },
+  {
+    "image": "/interior2.jpeg",
+    "heading": "green",
+    "description": "Something something something"
+  },
+   {
+    "image": "/interior3.jpeg",
+    "heading": "yellow",
     "description": "Something something something"
   }
 ]
