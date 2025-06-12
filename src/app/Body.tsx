@@ -1,7 +1,5 @@
 // import Image from "next/image"
 
-import { Hammer, HomeIcon, MapPin } from "lucide-react";
-
 import Link from "next/link";
 
 export default function Body() {

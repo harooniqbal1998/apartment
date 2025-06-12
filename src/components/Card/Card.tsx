@@ -4,10 +4,9 @@ import Image from "next/image";
 type CardInterface = {
   image: string;
   heading: string;
-  description: string;
 };
 
-export default function Card({ image, heading, description }: CardInterface) {
+export default function Card({ image, heading }: CardInterface) {
   return (
     <div className="flex flex-col w-[302px] border border-black box-border">
       <div className="relative w-[300px] h-[300px] overflow-hidden">

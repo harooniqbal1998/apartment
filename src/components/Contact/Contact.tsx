@@ -4,7 +4,7 @@
 import { useState } from "react";
 import { contactFormSchema } from "./schema";
 import { ContactFormData, ContactFormErrors } from "../../types";
-import { Mail, Phone, Trees, MapPin, Shield } from "lucide-react";
+import { Mail, Phone, Trees } from "lucide-react";
 
 export default function Contact() {
   const contacts = [
